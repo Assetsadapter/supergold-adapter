@@ -1,13 +1,12 @@
-# litecoin-adapter
+# supergold-adapter
 
-litecoin-adapter继承了bitcoin-adapter，主要修改了如下内容：
+supergold-adapter继承了litecoin-adapter，主要修改了如下内容：
 
-- 重写了Symbol = "LTC"。
-- 重写了addressDecoder，实现了LTC地址编码。
+- 重写了Symbol = "SPG"。
 
 ## 如何测试
 
-openwtester包下的测试用例已经集成了openwallet钱包体系，创建conf文件，新建LTC.ini文件，编辑如下内容：
+openwtester包下的测试用例已经集成了openwallet钱包体系，创建conf文件，新建SPG.ini文件，编辑如下内容：
 
 ```ini
 
