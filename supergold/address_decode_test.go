@@ -17,7 +17,7 @@ package supergold
 
 import (
 	"encoding/hex"
-	"github.com/blocktree/go-owcdrivers/addressEncoder"
+	"github.com/Assetsadapter/go-owcdrivers/addressEncoder"
 	"testing"
 )
 

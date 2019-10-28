@@ -17,7 +17,7 @@ package supergold
 
 import (
 	"github.com/blocktree/bitcoin-adapter/bitcoin"
-	"github.com/blocktree/go-owcdrivers/btcTransaction"
+	"github.com/Assetsadapter/go-owcdrivers/btcTransaction"
 	"github.com/blocktree/openwallet/log"
 )
 
