@@ -2,6 +2,7 @@ cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMT
 docker.io/go-docker v1.0.0/go.mod h1:7tiAn5a0LFmjbPDbyTPOaTTOuG1ZRNXdPA6RvKY+fpY=
 github.com/Assetsadapter/go-owcdrivers v1.0.0 h1:bq76FNAiH8537m+zRwy4licfW4qt3q7+puPdUrIpkfg=
 github.com/Assetsadapter/go-owcdrivers v1.0.0/go.mod h1:2hXsi40UTSL34/33MBqlYJutWpYa1iU0xLvtUOqRKfk=
+github.com/Assetsadapter/go-owcdrivers v1.1.27/go.mod h1:Ob+XKMlsFIT+c+1vd9bnBbTiMWn78BPFqFf3w4XUHTI=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/DataDog/zstd v1.3.5/go.mod h1:1jcaCB/ufaK+sKp1NBhlGmpz41jOoPQ35bpF36t7BBo=
 github.com/DataDog/zstd v1.4.0 h1:vhoV+DUHnRZdKW1i5UMjAk2G4JY8wN4ayRfYDNdEhwo=
@@ -48,7 +49,6 @@ github.com/blocktree/go-owcdrivers v1.0.24/go.mod h1:iyyJs7nj3LyRGjcoLnIpUK6238G
 github.com/blocktree/go-owcdrivers v1.0.37/go.mod h1:ZhndO+bVH1s39I/ECFg2lHwo6OuTI3xfXS2w06rTJtU=
 github.com/blocktree/go-owcdrivers v1.0.39/go.mod h1:ZhndO+bVH1s39I/ECFg2lHwo6OuTI3xfXS2w06rTJtU=
 github.com/blocktree/go-owcdrivers v1.0.42/go.mod h1:icMC6RUkkOp+Zw9jRZ+x+TCwSosX2v2rT9aePeyn+4E=
-github.com/blocktree/go-owcdrivers v1.1.16 h1:M7NUWl5TN9HPGRNDaYwkLPiEq0S8kmIcAiakWoupzYU=
 github.com/blocktree/go-owcdrivers v1.1.16/go.mod h1:Ob+XKMlsFIT+c+1vd9bnBbTiMWn78BPFqFf3w4XUHTI=
 github.com/blocktree/go-owcrypt v1.0.1/go.mod h1:5FCinL/4XVEqbmAFTOUgfMJVNJEw6WzVy624qsxzZC8=
 github.com/blocktree/go-owcrypt v1.0.2/go.mod h1:5FCinL/4XVEqbmAFTOUgfMJVNJEw6WzVy624qsxzZC8=

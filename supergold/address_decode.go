@@ -18,7 +18,7 @@ package supergold
 import (
 	"fmt"
 	"github.com/blocktree/bitcoin-adapter/bitcoin"
-	"github.com/Assetsadapter/go-owcdrivers/addressEncoder"
+	"github.com/blocktree/go-owcdrivers/addressEncoder"
 	"github.com/blocktree/go-owcrypt"
 )
 
