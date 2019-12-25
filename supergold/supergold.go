@@ -14,7 +14,9 @@
  */
 
 package supergold
+import "github.com/blocktree/go-owcdrivers/btcTransaction"
 
+var SPGMainnetAddressPrefix = btcTransaction.AddressPrefix{[]byte{0x3F}, nil, nil, "spg"}
 
 //FullName 币种全名
 func (wm *WalletManager) FullName() string {

@@ -17,7 +17,6 @@ package supergold
 
 import (
 	"github.com/blocktree/bitcoin-adapter/bitcoin"
-	"github.com/blocktree/go-owcdrivers/btcTransaction"
 	"github.com/blocktree/openwallet/log"
 )
 
@@ -33,8 +32,8 @@ func NewWalletManager() *WalletManager {
 	wm := WalletManager{}
 	wm.WalletManager = bitcoin.NewWalletManager()
 	wm.Config = bitcoin.NewConfig(Symbol, CurveType, Decimals)
-	wm.Config.MainNetAddressPrefix = btcTransaction.SPGMainnetAddressPrefix
-	wm.Config.TestNetAddressPrefix = btcTransaction.SPGMainnetAddressPrefix
+	wm.Config.MainNetAddressPrefix =SPGMainnetAddressPrefix
+	wm.Config.TestNetAddressPrefix =SPGMainnetAddressPrefix
 	wm.Decoder = NewAddressDecoder(&wm)
 	wm.Log = log.NewOWLogger(wm.Symbol())
 	return &wm

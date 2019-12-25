@@ -34,6 +34,11 @@ func init() {
 //	}
 //)
 
+var (
+	SPG_mainnetAddressP2PKH = addressEncoder.AddressType{"base58", addressEncoder.BTCAlphabet, "doubleSHA256", "h160", 20, []byte{0x3f}, nil}
+
+)
+
 type addressDecoder struct {
 	wm *WalletManager //钱包管理者
 }
@@ -68,7 +73,7 @@ func (decoder *addressDecoder) PrivateKeyToWIF(priv []byte, isTestnet bool) (str
 //PublicKeyToAddress 公钥转地址
 func (decoder *addressDecoder) PublicKeyToAddress(pub []byte, isTestnet bool) (string, error) {
 
-	cfg := addressEncoder.SPG_mainnetAddressP2PKH
+	cfg := SPG_mainnetAddressP2PKH
 
 	//pkHash := btcutil.Hash160(pub)
 	//address, err :=  btcutil.NewAddressPubKeyHash(pkHash, &cfg)
